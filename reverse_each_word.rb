@@ -3,6 +3,8 @@ def reverse_each_word(given_sentence)
   
   sentence_as_array.each do
     |item| item = item.reverse
+    puts item
+    puts item.reverse
     sentence_as_array
   end
   
