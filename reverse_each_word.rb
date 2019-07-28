@@ -7,6 +7,7 @@ def reverse_each_word(given_sentence)
     puts item.reverse
     sentence_as_array
   end
+  puts sentence_as_array
   
   reversed_sentence = sentence_as_array.join(" ")
   
